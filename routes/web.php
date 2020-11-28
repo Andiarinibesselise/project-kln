@@ -21,14 +21,14 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/','frontController@index');
+Route::get('/', 'frontController@index');
 
 
 Route::get('admin', 'adminController@admin');
 
-Route::get('setups', 'adminController@setups');
+Route::get('/setups', 'adminController@setups');
 
-Route::post('addSettings','crudController@insertData');
+Route::post('addSettings', 'crudController@insertData');
 
 Auth::routes();
 
