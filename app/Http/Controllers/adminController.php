@@ -11,10 +11,17 @@ class adminController extends Controller
     public function admin(){
         return view('backend.index');
     }
-    public function setups(){
+    /*   public function setups(){
         $data = DB::table('setups')->first();
-        return view ('backend.setup',['data'=>$data]);
+        return view ('backend.insert.setup',['data'=>$data]);
+    }*/
+
+    public function setups(){
+        
+        return view ('backend.insert.setup');
     }
+
+
     public function registrasi(){
         return view ('Registration.multiform');
     }

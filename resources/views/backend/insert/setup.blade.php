@@ -86,6 +86,7 @@
             <p><img id="output" width="200" src="{{url('public/setups')}}/{{$data->image}}" /></p>
         </div>
         <div class ="form-group">
+        
             <label>Site Title</label>
             <Request type="text" name="meta_title"  value ="{{$data->meta_title}}" class="form-control">
         </div>
