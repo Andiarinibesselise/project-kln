@@ -97,13 +97,17 @@ p {
 
 #header_wrapper {
     background-image: url("/frontend/img/navbar.jpg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 
 }
 #header_wrapper1 {
-    background: #fb8500;
+    background: #ffffff;
+    padding: 20px 0px;
+}
+#header_wrapper2 {
+    background: #f58b12;
     padding: 20px 0px;
 }
 
@@ -155,7 +159,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
@@ -177,6 +181,8 @@ p {
 
 .navStyle ul li a:hover {
     color: #df0031;
+    
+    
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
@@ -190,7 +196,7 @@ p {
     background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-e .navbar-nav > .active > a:focus {
     color: #df0031;
     background-color: transparent;
 }
@@ -499,7 +505,7 @@ a.contact_btn:hover {
 }
 
 .Portfolio-nav li a:hover {
-    background: #df0031;
+    background: #ffffff;
     color: #fff;
     text-decoration: none;
 }
@@ -811,7 +817,7 @@ img {
 }
 
 .contact_block_icon span {
-    background: none repeat scroll 0 0 #f56eab;
+    background: none repeat scroll 0 0 #ffffff;
     border: 5px solid #fff;
     border-radius: 50%;
     display: block;
@@ -920,7 +926,7 @@ img {
 }
 
 .gplus a:hover {
-    color: #dd4b39;
+    color: #ffffff;
 }
  
 
@@ -1713,7 +1719,7 @@ margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #222;
-background: #F9F9F9;
+background: rgb(255, 0, 0);
 }
 } 
 @media (max-width: 480px){ 

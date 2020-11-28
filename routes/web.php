@@ -12,23 +12,25 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('frontend.index');
 
     Route :: get('/about','homecontroller@aboutgunadarma');
 
 });
+*/
 
-Route::get('admin', function() {
-    return view ('backend.index');
-});
+Route::get('/','frontController@index');
 
-Route::get('setups', function() {
-    return view ('backend.insert.setup');
-});
 
+Route::get('admin', 'adminController@admin');
+
+Route::get('setups', 'adminController@setups');
+
+Route::post('addSettings','crudController@insertData');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('registration', 'adminController@registrasi');

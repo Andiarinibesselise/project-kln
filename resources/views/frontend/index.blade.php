@@ -32,11 +32,11 @@
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link"><strong> Library</strong></a></li>
-			  <li><a href="#aboutUs" class="scroll-link">Courses</a></li>
-			  <li><a href="#service" class="scroll-link">Maps</a></li>
-			  <li><a href="#team" class="scroll-link">The Staff</a></li>
-			  <li><a href="#Portfolio" class="scroll-link">About Gunadarma</a></li>
+			  <li class="active"><a href="#hero_section" class="scroll-link"><strong><h3> Library</h3></strong></a></li>
+			  <li><a href="#aboutUs" class="scroll-link"><h3>Courses</h3></a></li>
+			  <li><a href="#service" class="scroll-link"><h3>Maps</h3></a></li>
+			  <li><a href="#team" class="scroll-link"><h3>The Staff</h3></a></li>
+			  <li><a href="#Portfolio" class="scroll-link"><h3>About Gunadarma</h3></a></li>
 			</ul>
       </div>
    </nav>
@@ -55,11 +55,11 @@
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link">Study At Gunadarma</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">Life At Gunadarma</a></li>
-			  <li><a href="#service" class="scroll-link">Research</a></li>
-			  <li><a href="#Portfolio" class="scroll-link">Alumni</a></li>
-			  <li><a href="#clients" class="scroll-link">Industry & Community</a></li>
+			  <li class="active"><a href="#hero_section" class="scroll-link"><strong><h3>Study At Gunadarma</strong></h3></a></li>
+			  <li><a href="#aboutUs" class="scroll-link"><strong><h3>Life At Gunadarma</h3></strong></a></li>
+			  <li><a href="#service" class="scroll-link"><strong><h3>Research</h3></strong></a></li>
+			  <li><a href="#Portfolio" class="scroll-link"><strong><h3>Alumni</h3></strong> </a></li>
+			  <li><a href="#clients" class="scroll-link"><strong><h3>Industry & Community</h3></strong></a></li>
 			  <li><a href="#team" class="scroll-link"> </a></li>
 			</ul>
       </div>
@@ -288,10 +288,13 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four prototype isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/vclass.jpg"  alt="Portfolio 1"> </div>        
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a><img src="/frontend/img/vclass.jpg"  alt="Portfolio 1"> </div>        
+        
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">V-Class</h4>
+
+
           </div>
         </div>
         </div>
@@ -299,7 +302,7 @@
       
       <!-- Portfolio Item-->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four android isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/baak.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://baak.gunadarma.ac.id/"</a> <img src="/frontend/img/baak.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">BAAK</h4>
@@ -310,7 +313,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four web isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/library.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://library.gunadarma.ac.id/"</a> <img src="/frontend/img/library.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">LIBRARY</h4>
@@ -321,7 +324,7 @@
       
       <!-- Portfolio Item-->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  appleIOS isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/bapsi.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="http://bapsi.gunadarma.ac.id/"</a> <img src="/frontend/img/bapsi.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">BAPSI</h4>
@@ -332,7 +335,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/pusatstudi.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a> <img src="/frontend/img/pusatstudi.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">PUSAT STUDI</h4>
@@ -343,7 +346,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four prototype isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/kui.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a> <img src="/frontend/img/kui.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">KUI</h4>
@@ -354,7 +357,7 @@
       
       <!-- Portfolio Item  -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four web isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/sap.jpg" alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <a href="https://sap.gunadarma.ac.id/"</a> <img src="/frontend/img/sap.jpg" alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">SAP</h4>
@@ -364,7 +367,7 @@
       <!--/Portfolio Item --> 
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four prototype isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/ejournal.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a> <img src="/frontend/img/ejournal.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">E-JOURNAL</h4>
@@ -375,7 +378,7 @@
       
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four design isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/bajamtu.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a> <img src="/frontend/img/bajamtu.jpg" alt="Portfolio 1"> </div>
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">BAJAMTU</h4>
@@ -386,7 +389,7 @@
       
       <!-- Portfolio Item  -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/repository.jpg" alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a><img src="/frontend/img/repository.jpg" alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">repository</h4>
@@ -397,7 +400,7 @@
       
        <!-- Portfolio Item  -->
        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four appleIOS  isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/lpug.jpg"  alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a> <img src="/frontend/img/lpug.jpg"  alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
             <h4 class="project_name">LPUG</h4>
@@ -408,7 +411,7 @@
 
       <!-- Portfolio Item -->
       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
-        <div class="portfolio_img"> <img src="/frontend/img/lemlit.jpg" alt="Portfolio 1"> </div>       
+        <div class="portfolio_img"> <a href="https://v-class.gunadarma.ac.id/"</a><img src="/frontend/img/lemlit.jpg" alt="Portfolio 1"> </div>       
         <div class="item_overlay">
           <div class="item_info"> 
 				<h4 class="project_name">LEMLIT</h4>

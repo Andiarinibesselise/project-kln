@@ -15,7 +15,7 @@ class CreateSetupsTable extends Migration
     {
         Schema::create('setups', function (Blueprint $table) {
             $table->increments('sid');
-            $table->string('logo');
+            $table->string('logo')->nullable();
             $table->string('meta_title');
             $table->string('address');
             $table->string('contact');
