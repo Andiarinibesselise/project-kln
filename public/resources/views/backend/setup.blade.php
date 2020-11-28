@@ -28,7 +28,7 @@
             </div>
         </div>
         @endif
-
+    
         if($data == '')
         <div class="col-sm-6">
         <form method="post" action="{{url('addSettings')}}"enctype="multipart/form-data">
