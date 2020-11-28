@@ -45,11 +45,12 @@
   
 </header>
 <!--Header_section--> 
-<header id="header_wrapper1">
+
+<header id="header_wrapper1">`
   <div class="container">
     <div class="header_box">
       <!--<div class="logo"><a href="#"><img src="/frontend/img/hdlogo.png" alt="logo"></a></div>-->
-	  <nav class="navbar navbar-inverse" role="navigation">
+	  <nav class="navbar navbar-inverse2" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
@@ -67,29 +68,6 @@
     </div>
   </div>
 
-  
-<!--Hero_Section-->
-<section id="hero_section" class="top_cont_outer">
-  <div class="hero_wrapper">
-    <div class="container">
-      <div class="hero_section">
-        <div class="row">
-          <div class="col-lg-5 col-sm-7">
-            <div class="top_left_cont zoomIn wow animated"> 
-              <h2> <strong>INTERNATIONAL SITE GUNADARMA</strong></h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text  printer took a galley of type and scrambled it to make a type specimen.</p>
-              <a href="#service" class="read_more2">Read more</a> </div>
-          </div>
-          <div class="col-lg-7 col-sm-5">
-			<img src="/frontend/img/bg.jpg" class="zoomIn wow animated" alt="" />
-		  </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Hero_Section--> 
-
 <section id="aboutUs"><!--Aboutus-->
 <div class="inner_wrapper">
   <div class="container">
@@ -105,17 +83,12 @@
 </div>
 <div class="work_bottom"> <span>Want to know more..</span> <a href="#contact" class="contact_btn">READ MORE</a> </div>       
 	   </div>
-      	
       </div>
-	  
-      
     </div>
   </div> 
   </div>
 </section>
 <!--Aboutus--> 
-
-
 <!--Service-->
 <section  id="service">
   <div class="container">

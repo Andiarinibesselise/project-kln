@@ -103,8 +103,9 @@ p {
 
 }
 #header_wrapper1 {
+    
     background: #ffffff;
-    padding: 20px 0px;
+    padding: 20px 0px;  
 }
 #header_wrapper2 {
     background: #f58b12;
@@ -133,7 +134,13 @@ p {
     background-color: transparent;
     border-color: transparent;
 }
-
+.navbar-inverse2 {
+   
+   
+    border-color: #f58b12;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
 .navbar {
     border: 0px solid rgb(0, 0, 0);
     min-height: 40px;
@@ -141,7 +148,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: rgb(0, 0, 0);
+    color: rgb(199, 123, 52);
 }
 
 .navStyle {
@@ -169,7 +176,7 @@ p {
 .navStyle ul li a {
     display: block;
     font-size: 14px;
-    color: #222222;
+    color:#222222;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -1349,7 +1356,7 @@ img {
 
 #project_container {
     display: none;
-    background-color: #FFF;
+    background-color: rgb(56, 20, 20);
 }
 
 #project-page-button-fullscreen {
@@ -1718,7 +1725,7 @@ text-align:center;
 margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #222;
+color: rgb(235, 33, 33);
 background: rgb(255, 0, 0);
 }
 } 
