@@ -15,6 +15,52 @@ ul {
     list-style: none;
 }
 
+.sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:black ;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
 .figure {
     margin: 0px;
 }
@@ -80,7 +126,7 @@ h3 {
 
 h6 {
     font-size: 16px;
-    color: #000000;
+    color: #888888;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
@@ -104,8 +150,8 @@ p {
 }
 #header_wrapper1 {
     
-    background: #ffffff;
-    padding: 20px 0px;  
+    background: #ee821d;
+    padding: 10px 0px;  
 }
 #header_wrapper2 {
     background: #f58b12;
@@ -117,10 +163,14 @@ p {
 }
 
 .logo {
+   
     float: left;
-    margin-top: 8px;
-	position: relative;
-	z-index: 2;
+    left:300px;
+    margin: 10px ;
+	position: fixed;
+    z-index: 2;
+    max-width: 100px;
+    height: 100px;
 }
 
 .res-nav_click {
@@ -134,21 +184,15 @@ p {
     background-color: transparent;
     border-color: transparent;
 }
-.navbar-inverse2 {
-   
-   
-    border-color: #f58b12;
-    min-height: 40px;
-    margin-bottom: 0px;
-}
+
 .navbar {
-    border: 0px solid rgb(0, 0, 0);
+    border: 0px solid #fff;
     min-height: 40px;
     margin-bottom: 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: rgb(199, 123, 52);
+    color: #222;
 }
 
 .navStyle {
@@ -166,7 +210,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/
+	/*margin:0px;*/;
 }
 
 .navStyle ul li:last-child {
@@ -176,7 +220,7 @@ p {
 .navStyle ul li a {
     display: block;
     font-size: 14px;
-    color:#222222;
+    color: #222222;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -188,8 +232,6 @@ p {
 
 .navStyle ul li a:hover {
     color: #df0031;
-    
-    
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
@@ -203,7 +245,7 @@ p {
     background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-e .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #df0031;
     background-color: transparent;
 }
@@ -231,7 +273,7 @@ p {
 ---------------------------------*/
 
 .top_cont_outer {
-    background: #ffffff;
+    background: #df0031;
     position: relative;
 }
 
@@ -258,7 +300,7 @@ p {
 
 .top_left_cont h3 {
     font-size: 16px;
-    color: #000000;
+    color: #f56eab;
     margin: 0 0 20px 0;
     text-align: left;
     font-weight: 700;
@@ -266,7 +308,7 @@ p {
 
 .top_left_cont h2 {
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: #FFF;
     line-height: 52px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
@@ -279,7 +321,7 @@ p {
 
 .top_left_cont p {
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: #FFABAB;
     margin: 0 0 30px 0;
     line-height: 26px;
 }
@@ -512,7 +554,7 @@ a.contact_btn:hover {
 }
 
 .Portfolio-nav li a:hover {
-    background: #ffffff;
+    background: #df0031;
     color: #fff;
     text-decoration: none;
 }
@@ -632,7 +674,7 @@ img {
 
 
 .client_logos {
-    background: #272727;
+    background: #df0031;
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -712,7 +754,7 @@ img {
     display: block;
     width: 100%;
     height: 100%;
-    border-bottom: 4px solid #ffffff;
+    border-bottom: 4px solid #df0031;
 }
 
 .team_box:hover .team_box_shadow {
@@ -824,7 +866,7 @@ img {
 }
 
 .contact_block_icon span {
-    background: none repeat scroll 0 0 #ffffff;
+    background: none repeat scroll 0 0 #f56eab;
     border: 5px solid #fff;
     border-radius: 50%;
     display: block;
@@ -933,7 +975,7 @@ img {
 }
 
 .gplus a:hover {
-    color: #ffffff;
+    color: #dd4b39;
 }
  
 
@@ -1356,7 +1398,7 @@ img {
 
 #project_container {
     display: none;
-    background-color: rgb(56, 20, 20);
+    background-color: #FFF;
 }
 
 #project-page-button-fullscreen {
@@ -1725,8 +1767,8 @@ text-align:center;
 margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: rgb(235, 33, 33);
-background: rgb(255, 0, 0);
+color: #222;
+background: #F9F9F9;
 }
 } 
 @media (max-width: 480px){ 

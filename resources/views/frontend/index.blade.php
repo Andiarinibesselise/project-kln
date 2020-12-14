@@ -10,14 +10,110 @@
 <link href="{{url('/frontend/css/font-awesome.css')}}"rel="stylesheet" type="text/css"> 
 <link href="{{url('/frontend/css/animate.css')}}" rel="stylesheet" type="text/css">
 <link href= "{{asset('css/fontawesome.css')}}" rel="stylesheet" type="text/css">
- 
+
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
     <script src="js/html5element.js"></script>
 <![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black ;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Home</a>
+  <a href="#">Courses</a>
+  <a href="#">Our International Program</a>
+
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ More..</button>  
+  
  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
+
 </head>
 <body>
 
@@ -25,18 +121,21 @@
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <!--<div class="logo"><a href="#"><img src="/frontend/img/hdlogo.png" alt="logo"></a></div>-->
+      
+    <div class="logo"><a href="#"><img src="/frontend/img/hdlogo2.png" alt="logo"></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link"><strong><h3> Library</h3></strong></a></li>
+			  <li class="active"><a href="https://library.gunadarma.ac.id/" class="scroll-link"><strong><h3> Library</h3></strong></a></li>
 			  <li><a href="#aboutUs" class="scroll-link"><h3>Courses</h3></a></li>
 			  <li><a href="#service" class="scroll-link"><h3>Maps</h3></a></li>
 			  <li><a href="#team" class="scroll-link"><h3>The Staff</h3></a></li>
-			  <li><a href="#Portfolio" class="scroll-link"><h3>About Gunadarma</h3></a></li>
+        <li><a href="#Portfolio" class="scroll-link"><h3>About Gunadarma</h3></a></li>
+        
+        
 			</ul>
       </div>
    </nav>
@@ -46,7 +145,7 @@
 </header>
 <!--Header_section--> 
 
-<header id="header_wrapper1">`
+<header id="header_wrapper1">`Z
   <div class="container">
     <div class="header_box">
       <!--<div class="logo"><a href="#"><img src="/frontend/img/hdlogo.png" alt="logo"></a></div>-->
@@ -61,13 +160,14 @@
 			  <li><a href="#service" class="scroll-link"><strong><h3>Research</h3></strong></a></li>
 			  <li><a href="#Portfolio" class="scroll-link"><strong><h3>Alumni</h3></strong> </a></li>
 			  <li><a href="#clients" class="scroll-link"><strong><h3>Industry & Community</h3></strong></a></li>
-			  <li><a href="#team" class="scroll-link"> </a></li>
+        <li><a href="#team" class="scroll-link"> </a></li>
+        
 			</ul>
       </div>
    </nav>
     </div>
   </div>
-
+</header>
 <section id="aboutUs"><!--Aboutus-->
 <div class="inner_wrapper">
   <div class="container">
@@ -435,8 +535,8 @@
         <div class="col-lg-4 wow fadeInLeft">	
 		 <div class="contact_info">
                             <div class="detail">
-                                <h4>UNIQUE Infoway</h4>
-                                <p>104, Some street, NewYork, USA</p>
+                                <h4>St.Margonda Raya 100</h4>
+                                <p>West Java, Indonesia</p>
                             </div>
                             <div class="detail">
                                 <h4>call us</h4>
@@ -469,7 +569,7 @@
     </section>
   </div>
   <div class="container">
-    <div class="footer_bottom"><span>Copyright © 2014,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
+    <div class="footer_bottom"><span>Gunadarma University<a href="http://webthemez.com"></a>. </span> </div>
   </div>
 </footer>
 
