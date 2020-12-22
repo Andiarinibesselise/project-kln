@@ -29,28 +29,28 @@
         </div>
         @endif
 
-        
+
         <div class="col-sm-6">
             <form method="post" action="{{url('addCategory')}}">
                 {{ csrf_field() }}
-                <Request type="hidden" name="tbl" value="{{encrypt('categories')}}">
-                    
-                    <div class="form-group">
-                        <label>Title</label>
-                        <Request type="text" name="title" class="form-control">
-                    </div>
-                    <div class ="form-group">
-                        <label>Status</label>
-                        <select class ="form-control" name="status">
-                            <option>on</option>
-                            <option>off</option>
-                        </select>
-                    </div>
-                   
-                    <div class="form-group">
-                        <button class="btn btn-success">Update</button>
+                <input type="hidden" name="tbl" value="{{encrypt('categories')}}">
+
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" name="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <select class="form-control" name="status">
+                        <option>on</option>
+                        <option>off</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-success">Update</button>
             </form>
 </section>
-<!-- <script>     -->  
-    </section>
-    @stop
+<!-- <script>     -->
+</section>
+@stop

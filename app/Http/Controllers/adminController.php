@@ -16,7 +16,7 @@ class adminController extends Controller
     }
     public function setups()
     {
-        $data = DB::table('setups')->first();
+        $data = DB::table('setups')->get();
         // dd($data);
         return view('backend.insert.setup', ['data' => $data]);
     }
@@ -24,7 +24,8 @@ class adminController extends Controller
     {
         return view('Registration.multiform');
     }
-    public function categories(){
-        return view ('backend.insert.category');
+    public function categories()
+    {
+        return view('backend.insert.category');
     }
 }

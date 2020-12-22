@@ -28,11 +28,11 @@ Route::get('admin', 'adminController@admin');
 
 Route::get('/setups', 'adminController@setups');
 
-Route::post('addSettings', 'crudController@insertData');
+Route::post('/addSettings', 'crudController@insertData');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('registration', 'adminController@registrasi');
-Route::get('categories','adminController@categories');
-Route::post('addCategory','crudController@insertData');
+Route::get('categories', 'adminController@categories');
+Route::post('addCategory', 'crudController@insertData');
