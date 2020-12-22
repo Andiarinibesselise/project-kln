@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 <title>UG GLOBAL</title>
-<link rel="icon" href="{{url('/frontend/img/hdlogo.png')}}" type="image/png">
+<link rel="icon" href="{{url('/frontend/img/hdlogo2.png')}}" type="image/png">
 <link href="{{url('/frontend/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
 <link href="{{url('/frontend/css/style.css')}}" rel="stylesheet" type="text/css"> 
 <link href="{{url('/frontend/css/font-awesome.css')}}"rel="stylesheet" type="text/css"> 
@@ -168,6 +168,7 @@ function closeNav() {
     </div>
   </div>
 </header>
+
 <section id="aboutUs"><!--Aboutus-->
 <div class="inner_wrapper">
   <div class="container">

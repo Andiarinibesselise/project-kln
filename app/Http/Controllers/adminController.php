@@ -24,4 +24,7 @@ class adminController extends Controller
     {
         return view('Registration.multiform');
     }
+    public function categories(){
+        return view ('backend.insert.category');
+    }
 }

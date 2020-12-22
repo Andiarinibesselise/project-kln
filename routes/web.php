@@ -34,3 +34,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('registration', 'adminController@registrasi');
+Route::get('categories','adminController@categories');
+Route::post('addCategory','crudController@insertData');

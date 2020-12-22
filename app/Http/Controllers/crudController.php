@@ -17,16 +17,32 @@ class crudController extends Controller
             $data['social']= implode(',',$data['social']);        
         }
         if(!empty($data['image'])){
-            if(Input::hasFile('image')){
+            if(Request::hasFile('image')){
               $data['image'] = $this->upload($data['image'], $tbl);
             }
               }  
-          
+        if(Request::has('title')){
+            $data['slug']= $this->slug($data['title']);
+            
+        }  
+
+
+
         $data['created_at'] = date('Y-m-d H:i:s');  
     	DB::table($tbl)->insert($data);
     	session::flash('message','Data inserted successfully!!!');
         return redirect()->back();
     }
+    private function slug($string){
+        $string = strtolower(trim($string));
+        $string = preg_replace('/\s+/', '-',$string);
+        $string = preg_replace('/[^a-z0-9-]/', '-',$string);
+        $string = preg_replace('/-+/', '-',$string);
+        return rtrim($string,'-');
+    }
+    
+
+
     private function upload($image,$tbl){
         $name = $image->getClientOriginalName();
         $newName = date('ymdgis').$name;

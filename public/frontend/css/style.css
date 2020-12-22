@@ -151,7 +151,10 @@ p {
 #header_wrapper1 {
     
     background: #ee821d;
-    padding: 10px 0px;  
+   
+    background-color: fixed;
+    position: relative;
+    
 }
 #header_wrapper2 {
     background: #f58b12;
@@ -168,7 +171,7 @@ p {
     left:300px;
     margin: 10px ;
 	position: fixed;
-    z-index: 2;
+    z-index: 1;
     max-width: 100px;
     height: 100px;
 }
