@@ -36,3 +36,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('registration', 'adminController@registrasi');
 Route::get('categories', 'adminController@categories');
 Route::post('addCategory', 'crudController@insertData');
+
+Route::get('Maps', 'adminController@peta');
+
+Route::get('/upload', 'UploadController@upload');
+Route::post('/upload/proses', 'UploadController@proses_upload');

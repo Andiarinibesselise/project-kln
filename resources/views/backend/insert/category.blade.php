@@ -39,6 +39,7 @@
                     <label>Title</label>
                     <input type="text" name="title" class="form-control">
                 </div>
+                
                 <div class="form-group">
                     <label>Status</label>
                     <select class="form-control" name="status">

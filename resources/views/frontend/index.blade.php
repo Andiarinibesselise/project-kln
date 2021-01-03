@@ -569,15 +569,15 @@
             <div class="contact_info">
               <div class="detail">
                 <h4>St.Margonda Raya 100</h4>
-                <p>West Java, Indonesia</p>
+                <p>{{$setups->address}}</p>
               </div>
               <div class="detail">
                 <h4>call us</h4>
-                <p>+1 234 567890</p>
+                <p>{{$setups->contact}}</p>
               </div>
               <div class="detail">
                 <h4>Email us</h4>
-                <p>support@sitename.com</p>
+                <p>{{$setups->email}}</p>
               </div>
             </div>
 

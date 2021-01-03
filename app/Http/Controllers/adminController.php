@@ -18,7 +18,7 @@ class adminController extends Controller
     {
         $data = DB::table('setups')->get();
         // dd($data);
-        return view('backend.insert.setup', ['data' => $data]);
+        return view('backend.insert.setup');
     }
     public function registrasi()
     {
@@ -27,5 +27,9 @@ class adminController extends Controller
     public function categories()
     {
         return view('backend.insert.category');
+    }
+    public function peta()
+    {
+        return view('backend.insert.maps');
     }
 }

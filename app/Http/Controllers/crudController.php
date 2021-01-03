@@ -17,7 +17,7 @@ class crudController extends Controller
 
         if ($request->logo == null) {
             $lokasifileskr = null;
-        } else {
+        } else { 
             $ext = $request->file('logo')->getClientOriginalExtension();
             $namafile = time() . '.' . $ext;
             $lokasifileskr = '/setups2/' . $namafile;
@@ -46,8 +46,6 @@ class crudController extends Controller
         $string = preg_replace('/-+/', '-', $string);
         return rtrim($string, '-');
     }
-
-
 
     private function upload($image, $tbl)
     {
